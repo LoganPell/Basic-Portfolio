@@ -1,0 +1,201 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+header div, main {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0 1em 0 1em;
+}
+
+header {
+	background-color: grey;
+	width: 100%;
+	top: 0;
+	position: fixed;
+}
+
+header h1 {
+	margin-left: 30px;
+	float: left;
+	font-family: helvetica;
+	padding: 5px;
+}
+
+main {
+	padding: 6em 1em 1em 1em;
+
+}
+
+header a {
+	text-decoration: none;
+	color: white;
+}
+
+header a:hover {
+	color: black;
+}
+
+header li {
+	font-family: helvetica;
+	display: inline-block;
+	margin-right: 30px;
+	font-size: 19px;
+}
+
+header li a:hover {
+	color: black;
+}
+
+header ul {
+	float: right;
+	list-style-type: none;
+	padding-top: 1em;
+}
+
+/*@media only screen and (max-width: 520px) {
+	header { text-align: center; position: relative; }
+	main { padding: 1em; }
+	header h1 { float: none; margin: 0; }
+	header ul { float: none; margin: auto;}
+}﻿
+*/
+.About-Me {
+	background-color: #ededed; 
+	margin: 30px;
+	border: 2px grey solid;
+	display: inline-block;
+	width: 550px;
+}
+
+.About-Me img {
+	margin: 20px;
+	position: relative;
+	bottom: 15px;
+	height: 175px;
+	width: 225px;
+	float: left;
+}
+
+.About-Me h1 {
+	font-family: helvetica;
+	border-bottom: 2px grey solid;
+	margin: 20px;
+}
+
+.About-Me p {
+	font-family: helvetica;
+	margin: 20px;
+}
+
+.About-Me h2 {
+	font-family: helvetica;
+	margin: 20px;
+	font-size: 17px;
+	text-align: center;
+}
+
+.About-Me form {
+	margin: 20px;
+}
+
+.About-Me label {
+	font-family: helvetica;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	display: block;
+}
+
+.About-Me [type="text"] {
+	width: 500px;
+}
+
+.About-Me textarea {
+	width: 500px;
+	height: 300px;
+}
+
+.About-Me [type="submit"] {
+	display: block;
+	margin-left: 225px;
+	margin-top: 10px;
+}
+
+.About-Me .row {
+	margin: 20px;
+}
+
+.About-Me .column {
+	display: inline-block;
+}
+
+@media (max-width: 500px) {
+	.About-Me .column {
+		width: 50%;
+	}
+}
+
+.About-Me .content {
+	height: 175px;
+	width: 175px;
+	margin: 20px;
+	position: relative;
+	left: 30px;
+	display: inline-block;
+	border: solid black 2px;
+	padding-bottom: 0px;
+}
+
+.About-Me .img {
+	float: none;
+	position: relative;
+	right: 20px;
+	bottom: 20px;
+	height: 175px;
+	width: 175px;
+}
+
+.About-Me h3 {
+	background-color: white;
+	width: 175px;
+	text-align: center;
+	position: relative;
+	bottom: 100px;
+	height: 20px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	font-family: helvetica;
+	float: none;
+}
+
+
+.Connect-With-Me {
+	font-family: helvetica;
+	background-color: #ededed;
+	border: 2px grey solid;
+	float: right;
+	margin: 30px;
+	width: 280px;
+}
+
+.Connect-With-Me h2 {
+	margin: 20px;
+	border-bottom: 2px grey solid;
+}
+
+.Connect-With-Me img {
+	margin: 20px;
+	height: 50px;
+	width: 50px;
+}
+
+.Footer {
+	font-family: helvetica;
+	text-align: center;
+	background-color: grey;
+	position: absolute;
+	bottom: 0;
+	margin: 0 auto;
+	width: 100%;
+}
